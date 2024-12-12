@@ -63,14 +63,14 @@ export default function App(){
         {verCarrito ?  <Carrito /> : null}
         <div className='vinculos-secciones'>
         <Routes>
-          <Route path='/' element={<Inicio />}/>
-          <Route path='/sobreNosotros' element={<SobreNosotros />}/>
-          <Route path='/cursos' element={<Cursos />}/>
-          <Route path='/planes' element={<Planes />}/>
-          <Route path='/pagarCursos' element={<PagarCursos />}/>
-          <Route path='/contactanos' element={<Formulario />}/>
-          <Route path='/login' element={<Login/>}/>
-          <Route path='/formularioRegistro2' element={<FormularioRegistro2/>}/>
+          <Route path='/TE3DAMOSCURSO/' element={<Inicio />}/>
+          <Route path='/TE3DAMOSCURSO/sobreNosotros' element={<SobreNosotros />}/>
+          <Route path='/TE3DAMOSCURSO/cursos' element={<Cursos />}/>
+          <Route path='/TE3DAMOSCURSO/planes' element={<Planes />}/>
+          <Route path='/TE3DAMOSCURSO/pagarCursos' element={<PagarCursos />}/>
+          <Route path='/TE3DAMOSCURSO/contactanos' element={<Formulario />}/>
+          <Route path='/TE3DAMOSCURSO/login' element={<Login/>}/>
+          <Route path='/TE3DAMOSCURSO/formularioRegistro2' element={<FormularioRegistro2/>}/>
         </Routes>
 
         </div>
