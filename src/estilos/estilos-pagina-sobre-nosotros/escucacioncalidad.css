@@ -1,0 +1,39 @@
+.section-edu-cal{
+    background-color: rgb(12, 12, 32);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.contenedor-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5% 10% 2%;
+    gap: 80px;
+    
+}
+.titulo-edu-cal{
+    font-size: 1.7em;
+}
+.item-edu-cal img{
+    width: 45%;
+    height: auto;
+}
+.item-edu-cal p{
+    font-size: 0.8em;
+    margin-top: 15px;
+    color: rgb(213, 213, 213);
+}
+
+@media (max-width: 768px) {
+    .contenedor-info{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;  
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor-info{
+        grid-template-columns: 1fr;
+        gap: 30px;  
+    }
+}

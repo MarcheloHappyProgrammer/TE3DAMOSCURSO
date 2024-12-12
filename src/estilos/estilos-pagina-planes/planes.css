@@ -1,0 +1,164 @@
+.contenedor-planes{
+    padding: 10%;
+    text-align: center;
+    background-color: rgb(12, 12, 32);
+    color: white;
+    padding-top: 220px;
+}
+
+.info-planes{
+    line-height: 2;
+}
+
+.info-planes hr{
+    height: 4px;
+    background-color: aliceblue;
+}
+
+.planes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7%;
+    margin-top: 6%;
+}
+
+.plan{
+    border-radius: 10px;
+    padding: 12%;
+    height: max-content;
+}
+
+.plan h2{
+    margin-bottom: 10px;
+}
+
+.planes p, .planes li{
+    font-size: 0.85em;
+}
+
+.planes li{
+    text-align: justify;
+}
+
+.precio{
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.btn-contactanos{
+    padding: 8px 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(12, 12, 32);
+    border: 3px solid rgb(92, 0, 128);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-contactanos:hover{
+    background-color: rgb(92, 0, 128);
+    transform: scale(1.1);
+}
+
+.estandar{
+    border: 3px solid purple;
+}
+
+.estandar hr{
+    background-color: purple;
+    border-width: 0;
+}
+
+.equipos{
+    border: 3px solid rgb(0, 38, 128);
+}
+
+.equipos hr{
+    background-color: rgb(0, 38, 128);
+    border-width: 0;
+}
+
+.corporativo{
+    border: 3px solid rgb(56, 177, 234);
+}
+
+.corporativo hr{
+    background-color: rgb(56, 177, 234);
+    border-width: 0;
+}
+
+.lista-beneficios{
+    margin-bottom: 40px;
+}
+
+
+@media (max-width: 1024px) {
+    .planes{
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 5%;
+    }
+
+    .contenedor-planes{
+        padding-top: 180px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .planes{
+        grid-template-columns: 1fr; 
+        gap: 10%; 
+    }
+
+    .contenedor-planes{
+        padding-top: 140px; 
+    }
+
+    .plan{
+        padding: 8%; 
+    }
+
+    .btn-contactanos{
+        font-size: 1em; 
+        padding: 6px 8px; 
+    }
+
+    .precio{
+        font-size: 1.2em; 
+    }
+
+    .planes p, .planes li{
+        font-size: 0.75em; 
+    }
+
+    .info-planes{
+        font-size: 0.9em; 
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor-planes{
+        padding-bottom: 200px;
+    }
+
+    .plan{
+        padding: 6%; 
+    }
+
+    .btn-contactanos{
+        font-size: 0.9em; 
+        padding: 5px 6px;
+    }
+
+    .precio{
+        font-size: 1.1em; 
+    }
+
+    .planes p, .planes li{
+        font-size: 0.7em; 
+    }
+    .contenedor-planes{
+        padding-top: 100px;
+    }
+}

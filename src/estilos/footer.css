@@ -1,0 +1,144 @@
+footer {
+    padding: 15px 60px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: rgb(155, 154, 207);
+    background-color: rgb(26, 45, 100);
+}
+
+footer a {
+    color: rgb(155, 154, 207);
+}
+
+.body-footer {
+    padding: 10px 0 30px 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas grandes */
+    gap: 20px; /* Espaciado entre las columnas */
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+hr {
+    border-color: white;
+    height: 3px;
+}
+
+.title-footer,
+.copyright {
+    padding-bottom: 10px;
+}
+
+.icono-footer {
+    transform: scale(1.8);
+    margin: 10px 8px 20px;
+    padding: 1.5px;
+    border: 1px solid white;
+    border-radius: 100%;
+    color: white;
+}
+
+.whatsapp {
+    transform: scale(1.6);
+    margin-right: 5px;
+    color: rgb(28, 182, 28);
+}
+
+.button-verifica-certificado {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.div-verifica p {
+    font-weight: 600;
+}
+
+/* Media Queries para hacerlo responsivo */
+
+@media (max-width: 1024px) {
+    .body-footer {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas para pantallas medianas */
+        gap: 15px;
+    }
+
+    .button-verifica-certificado {
+        width: 80%; /* Aumentar el ancho del botón en pantallas más pequeñas */
+    }
+
+    .footer-titles {
+        text-align: center;
+    }
+
+    .copyright {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 768px) {
+    .body-footer {
+        grid-template-columns: 1fr; /* Una sola columna para pantallas pequeñas */
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .button-verifica-certificado {
+        width: 90%; /* Ajuste para pantallas más pequeñas */
+        padding: 12px;
+    }
+
+    .icono-footer {
+        transform: scale(1.5); /* Reducir el tamaño de los iconos */
+        margin: 5px 6px;
+    }
+
+    .whatsapp {
+        transform: scale(1.4); /* Ajustar el tamaño del icono de WhatsApp */
+    }
+
+    .body-footer a {
+        display: block; /* Hacer los enlaces de redes sociales bloques para mejor disposición */
+        margin-top: 10px;
+    }
+
+    .footer-titles {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 15px 20px;
+        font-size: 0.7em;
+    }
+
+    .body-footer {
+        grid-template-columns: 1fr; /* Una sola columna en pantallas muy pequeñas */
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .button-verifica-certificado {
+        width: 100%; /* El botón ocupa el 100% de la pantalla en pantallas muy pequeñas */
+        padding: 15px;
+    }
+
+    .icono-footer {
+        transform: scale(3); /* Reducir aún más el tamaño de los iconos */
+        margin: 8px 4px;
+    }
+
+    .whatsapp {
+        transform: scale(1.3); /* Ajustar el tamaño del icono de WhatsApp */
+    }
+}

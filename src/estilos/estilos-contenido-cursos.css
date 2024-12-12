@@ -1,0 +1,28 @@
+.cuerpo-contenido-curso{
+    padding-top: 80px;
+    background-color: rgb(12, 12, 32);
+    color: white;
+}
+.cuerpo-contenido-curso h1{
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+.cuerpo-contenido-curso h2{
+    padding: 20px 10px 10px;
+}
+.cuerpo-contenido-curso button{
+    padding: 8px;
+    font-size: 3em;
+    color: white;
+    background-color: rgb(12, 12, 32);
+    border: none;
+    cursor: pointer;
+}
+.avanzar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.cuerpo-contenido-curso button:hover{
+    color: rgb(15, 160, 80);
+}

@@ -1,0 +1,84 @@
+.curso-item-carrito img{
+    width: 30%;
+    height: 80px;
+}
+.curso-item-carrito {
+    display: flex;
+}
+.curso-item-carrito h3{
+    font-size: 0.9em;
+    padding: 10px;
+    width: 40%;
+}
+.curso-item-carrito p{
+    padding-top: 10px;
+    width: 20%;
+}
+.btn-vaciar-carrito{
+    border: 1px solid rgba(156, 1, 1, 0.759);
+    background-color: rgb(89, 4, 4);
+}
+.btn-pagar-carrito{
+    border: 1px solid rgba(47, 156, 1, 0.759);
+    background-color: rgb(4, 89, 38);
+}
+.btn-carrito{
+    padding: 5px 10px;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.btns-carrito{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btn-carrito:hover{
+    transform: scale(1.1);
+}
+.btn-eliminar-item{
+    height: max-content;
+    margin: 15px 0 0 30px;
+    padding: 5px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 20px;
+    border: none;
+    color: rgb(28, 28, 28);
+    cursor: pointer;
+}
+.btn-eliminar-item:hover{
+    animation-name: animacion-eliminar;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    color: rgb(121, 0, 0);
+    border: 2px solid rgb(121, 0, 0);
+}
+@keyframes animacion-eliminar {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.Total{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15% 0 20px;
+}
+.icono-carrito-vacio{
+    transform: scale(1.6);
+    margin-left: 10px ;
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
+    
+}

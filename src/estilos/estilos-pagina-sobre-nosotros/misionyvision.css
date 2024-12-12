@@ -1,0 +1,67 @@
+.section-mi-vi{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 0.8fr 1fr 3fr;
+    gap: 10px;
+    height: 330px;
+    align-items: center;
+    background-color: rgb(12, 12, 32);
+}
+.mision-vision {
+    padding-left: 40px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.img-mi-vi {
+    background-image: url(../../imagenes/imagenes-sobre-nosotros/img-mision.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    height: 100%;
+}
+.text-mi-vi {
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: -60px;
+    background-color: white;
+}
+.botonSobreNosotros {
+    background-color: rgb(12, 12, 32);
+    border: none;
+    color: white;
+    margin: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.seleccionado {
+    font-size: 1.2em;
+    border-bottom: 2px solid white;
+}
+
+@media (max-width: 768px) {
+    .section-mi-vi{
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 600px;
+    }
+    .text-mi-vi {
+        grid-column: 1 / span 2;
+        margin-left: 20px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .section-mi-vi{
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 600px;
+    }
+    .text-mi-vi {
+        grid-column: 1 / span 2;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+}

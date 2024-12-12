@@ -1,0 +1,31 @@
+a {
+    text-decoration: none;
+}
+
+.card-main{
+    padding: 30px;
+    border-radius: 12px;
+    border: 3px solid white;
+    color: white;
+    
+}
+.card-main:hover{
+    background-color: rgb(0, 0, 77);
+}
+
+@media (max-width: 768px) {
+
+    .card-main{
+        margin : 10px;
+        text-align: center;
+    }
+    
+}
+
+
+@media (max-width: 480px) {
+    .card-main{
+        margin : 10px;
+        text-align: center;
+    }
+}
