@@ -14,8 +14,6 @@ import Cursos from './Cursos.js';
 import Planes from './Planes';
 import Cabecera from './Cabecera.js';
 import Contacto from './Contacto.js';
-import FormularioRegistro2 from './FormularioRegistro2.js';
-import Login from './Login.js';
 import Carrito from './componentes/carrito.jsx';
 import { EstadoCarrito } from './StateCarrito.jsx';
 import PagarCursos from './PagarCursos.js';
@@ -23,10 +21,10 @@ import Formulario from './componentes/contactanos.jsx';
 
 import { faFacebookF, faTwitter, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 const paginas = [
-  {texto: 'INICIO' , link:'/'},
-  {texto: 'SOBRE NOSOTROS' , link:'/sobreNosotros'},
-  {texto: 'CURSOS' , link:'/cursos'},
-  {texto: 'PLANES' , link:'/planes'},
+  {texto: 'INICIO' , link:'/TE3DAMOSCURSO/'},
+  {texto: 'SOBRE NOSOTROS' , link:'/TE3DAMOSCURSO/sobreNosotros'},
+  {texto: 'CURSOS' , link:'/TE3DAMOSCURSO/cursos'},
+  {texto: 'PLANES' , link:'/TE3DAMOSCURSO/planes'},
 ]
 
 const iconosRedes = [
@@ -69,8 +67,6 @@ export default function App(){
           <Route path='/TE3DAMOSCURSO/planes' element={<Planes />}/>
           <Route path='/TE3DAMOSCURSO/pagarCursos' element={<PagarCursos />}/>
           <Route path='/TE3DAMOSCURSO/contactanos' element={<Formulario />}/>
-          <Route path='/TE3DAMOSCURSO/login' element={<Login/>}/>
-          <Route path='/TE3DAMOSCURSO/formularioRegistro2' element={<FormularioRegistro2/>}/>
         </Routes>
 
         </div>

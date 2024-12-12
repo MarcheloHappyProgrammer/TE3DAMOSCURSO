@@ -52,7 +52,7 @@ function Botones(){
             <button onClick={() => vaciarCarrito()} className='btn-vaciar-carrito btn-carrito'>
             Vaciar carrito <MdRemoveShoppingCart />
         </button>
-        <Link className='btn-pagar-carrito btn-carrito' to='/pagarCursos'>
+        <Link className='btn-pagar-carrito btn-carrito' to='/TE3DAMOSCURSO/pagarCursos'>
             Ir a pagar <MdOutlinePayment />
 
         </Link>

@@ -2,8 +2,8 @@ import React from "react";
 import {Link} from 'react-router-dom';
 
 const cards = [
-    {texto: 'VER CURSOS', link: '/cursos'},
-    {texto: 'REGISTRATE AHORA', link: '/contactanos'},
+    {texto: 'VER CURSOS', link: '/TE3DAMOSCURSO/cursos'},
+    {texto: 'REGISTRATE AHORA', link: '/TE3DAMOSCURSO/contactanos'},
 ]
 export default function MainPagIn() {
     return (

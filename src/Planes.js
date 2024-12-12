@@ -47,7 +47,7 @@ function Plan({nombre,maxpersonas,precio , beneficiosplan, clase}){
             <ul className="lista-beneficios">
                 {beneficiosplan.map((item)=><li><FaCheckCircle />{item}</li>)}
             </ul>
-            <Link className="btn-contactanos" to="/contactanos">
+            <Link className="btn-contactanos" to="/TE3DAMOSCURSO/contactanos">
                 Contáctanos
             </Link>
         </article>
@@ -62,7 +62,7 @@ function Corporativo({beneficiosplan, clase}){
             <ul className="lista-beneficios">
                 {beneficiosplan.map((item)=><li><FaCheckCircle />{item}</li>)}
             </ul>
-            <Link className="btn-contactanos" to="/contactanos">
+            <Link className="btn-contactanos" to="/TE3DAMOSCURSO/contactanos">
                 Contáctanos
             </Link>
         </article>
