@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TE3DAMOSCURSO/static/css/main.ba9d782a.css",
-    "main.js": "/TE3DAMOSCURSO/static/js/main.f6b92573.js",
+    "main.js": "/TE3DAMOSCURSO/static/js/main.799d49b5.js",
     "static/media/img-mision.jpg": "/TE3DAMOSCURSO/static/media/img-mision.dc69249762844a79e2cb.jpg",
     "static/media/imagen-contactanos.jpg": "/TE3DAMOSCURSO/static/media/imagen-contactanos.08902ed46c6ad7f977d2.jpg",
     "static/media/imagen-banner.jpg": "/TE3DAMOSCURSO/static/media/imagen-banner.93a4daf2c005412bcb6b.jpg",
@@ -20,10 +20,10 @@
     "static/media/profesionales.png": "/TE3DAMOSCURSO/static/media/profesionales.130c0aaebbd070320ad6.png",
     "index.html": "/TE3DAMOSCURSO/index.html",
     "main.ba9d782a.css.map": "/TE3DAMOSCURSO/static/css/main.ba9d782a.css.map",
-    "main.f6b92573.js.map": "/TE3DAMOSCURSO/static/js/main.f6b92573.js.map"
+    "main.799d49b5.js.map": "/TE3DAMOSCURSO/static/js/main.799d49b5.js.map"
   },
   "entrypoints": [
     "static/css/main.ba9d782a.css",
-    "static/js/main.f6b92573.js"
+    "static/js/main.799d49b5.js"
   ]
 }
