@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b5b92134.css",
+    "main.js": "/static/js/main.7345fb8a.js",
+    "static/media/img-mision.jpg": "/static/media/img-mision.dc69249762844a79e2cb.jpg",
+    "static/media/imagen-contactanos.jpg": "/static/media/imagen-contactanos.08902ed46c6ad7f977d2.jpg",
+    "static/media/imagen-banner.jpg": "/static/media/imagen-banner.93a4daf2c005412bcb6b.jpg",
+    "static/media/banner-sobre-nosotros.jpg": "/static/media/banner-sobre-nosotros.4590f7e291b863c741fc.jpg",
+    "static/media/imagen-cursos.jpg": "/static/media/imagen-cursos.1e07ed2c9e05b8299567.jpg",
+    "static/media/python-curso-fundamentos.jpg": "/static/media/python-curso-fundamentos.1950e86c8df45009d08c.jpg",
+    "static/media/python-curso-datos-lineales.jpg": "/static/media/python-curso-datos-lineales.4b70570fa2c240a85963.jpg",
+    "static/media/php-curso.jpg": "/static/media/php-curso.c842bda1ee3348af62fe.jpg",
+    "static/media/kotlin-curso.jpg": "/static/media/kotlin-curso.5e4e9302c89cc9d10a56.jpg",
+    "static/media/postgresql-curso.png": "/static/media/postgresql-curso.60b3a8d199bc47e56878.png",
+    "static/media/html-css-curso.jpg": "/static/media/html-css-curso.ef11b675ed641a068a09.jpg",
+    "static/media/javascript-curso.jpg": "/static/media/javascript-curso.e90f1c710a3de867c6c4.jpg",
+    "static/media/emprendedores.png": "/static/media/emprendedores.4aac545988a920e2a81b.png",
+    "static/media/Logo.jpeg": "/static/media/Logo.1544c87be4df0f50994c.jpeg",
+    "static/media/estudiantes_autodidactas.png": "/static/media/estudiantes_autodidactas.2416e21b174adc8561fd.png",
+    "static/media/profesionales.png": "/static/media/profesionales.130c0aaebbd070320ad6.png",
+    "index.html": "/index.html",
+    "main.b5b92134.css.map": "/static/css/main.b5b92134.css.map",
+    "main.7345fb8a.js.map": "/static/js/main.7345fb8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5b92134.css",
+    "static/js/main.7345fb8a.js"
+  ]
+}
