@@ -5,7 +5,7 @@ import './estilos/header.css'
 import './estilos/principal.css'
 import { Icon } from './componentes/icon';
 import { faMagnifyingGlass , faCartShopping } from "@fortawesome/free-solid-svg-icons";
-import {Link, BrowserRouter, Route , Routes} from 'react-router-dom';
+import {  Routes, Route, BrowserRouter, Link } from "react-router-dom";
 import './General.css';
 import Inicio from './Inicio';
 import SobreNosotros from './SobreNosotros';
